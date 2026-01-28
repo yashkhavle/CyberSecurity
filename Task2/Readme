@@ -1,1 +1,21 @@
-Basic Firewall Configuration with UFW
+# Basic Firewall Configuration using UFW on Ubuntu (VirtualBox)
+
+## Objective
+To configure a basic firewall using UFW on Ubuntu running inside VirtualBox.
+
+## Environment
+- Ubuntu OS
+- VirtualBox Virtual Machine
+
+## Configuration Steps
+- Installed UFW
+- Denied all incoming connections by default
+- Allowed outgoing connections
+- Allowed SSH (port 22)
+- Denied HTTP (port 80)
+- Enabled firewall and verified rules
+
+## Files
+- ufw_configuration.sh
+- Screenshot of ufw status
+
