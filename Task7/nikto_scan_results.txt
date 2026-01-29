@@ -1,0 +1,7 @@
+- Nikto v2.2.5/2.1.5
++ Target Host: localhost
++ Target Port: 80
++ GET /: Server leaks inodes via ETags, header found with file /, fields: 0x29af 0x6497781ba3ca6
++ GET /: the anti_clickjacking X-Frame_Options header is not present.
++ OPTIONS /: Allowed HTTP Methods: HEAD, GET, POST, OPTIONS
++ -561: GET /server-status: /server-status: This reveals Apache information. Comment out appropriate line in https.conf or restrict access to allowed hosts.
